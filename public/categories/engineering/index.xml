@@ -32,6 +32,8 @@
 &lt;/h2&gt;&lt;p&gt; The &lt;a class=&#34;link&#34; href=&#34;https://kevinakasam.com/klackender/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;klackender&lt;/a&gt; is a mostly-free automatic bed probe for the ender 3 that uses common microswitches and magnets to give your printer capabilities similar to the klicky probe found on many Vorons, Ratrigs, and other DIY printers. It&amp;rsquo;s accurate and cheap, but entirely DIY. Luckily, the macros required were provided by KevinAkaSam, so you don&amp;rsquo;t need to worry about the headache that can be klipper macros.&lt;/p&gt;
 &lt;p&gt; BUT, and this is a huge BUT, it&amp;rsquo;s an entirely DIY mod. There are easier ways to do this that aren&amp;rsquo;t too expensive. An inductive probe like a PINDA is $5-15 on aliexpress and a pretty easy mod. Honestly, I&amp;rsquo;d probably recommend the inductive probe over the klackender for most use cases.&lt;/p&gt;
+&lt;h2 id=&#34;hero-me&#34;&gt;Hero Me
+&lt;/h2&gt;&lt;p&gt; This is probably the first upgrade I&amp;rsquo;ll completely remove from my printer. I found that the Hero Me system was bulky and didn&amp;rsquo;t work all that well together. While configurable, it was configurable at the expense of anything else. The system is near-impossible to actually perform maintenance on. I also found that the direct drive mod for the Hero Me didn&amp;rsquo;t work well. Soooo&amp;hellip; yeah. Might work for others, but I had a universally bad experience with it.&lt;/p&gt;
 </description>
         </item>
         <item>
