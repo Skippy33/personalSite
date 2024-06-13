@@ -1,7 +1,7 @@
 +++
 title = 'FLSUN SR upgrades logs + notes'
 date = 2024-05-26T12:52:07-07:00
-draft = true
+draft = false
 categories = [
     "engineering",
     "3D printing",

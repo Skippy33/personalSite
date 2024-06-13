@@ -1,7 +1,7 @@
 +++
 title = 'Max Flow'
 date = 2024-06-04T11:10:57-07:00
-draft = true
+draft = false
 categories = [
     "engineering",
     "3D printing",

@@ -1,7 +1,7 @@
 +++
 title = "The Argo, or: I don't know how to organize a story properly"
 date = 2024-06-04T11:56:46-07:00
-draft = true
+draft = false
 categories = [
     "Writing"
 ]
