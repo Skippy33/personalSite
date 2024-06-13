@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Skippy&#39;s Symposium</title>
+        <link>http://localhost:1313/post/stories/</link>
+        <description>Recent content on Skippy&#39;s Symposium</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sebastien Boehme</copyright>
+        <lastBuildDate>Tue, 04 Jun 2024 12:02:22 -0700</lastBuildDate><atom:link href="http://localhost:1313/post/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Moxels</title>
+        <link>http://localhost:1313/p/moxels/</link>
+        <pubDate>Tue, 04 Jun 2024 12:02:22 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/moxels/</guid>
+        <description>&lt;h2 id=&#34;so-what-exactly-are-moxels&#34;&gt;So, what exactly are moxels?
+&lt;/h2&gt;&lt;p&gt; Well, moxels are a fictional technology I like to include in my stories. The phrase is a concatonation of &amp;ldquo;Matter Pixel,&amp;rdquo; as that&amp;rsquo;s basically what a Moxel is: an extension of pixels into 3D matter. Rather than having a computer project images on a screen with lots of tiny pixels, the concept of moxels would allow computers to project 3D objects with lots of tiny moxels.&lt;/p&gt;
+&lt;h2 id=&#34;and-how-exactly-is-this-supposed-to-work&#34;&gt;And how exactly is this supposed to work?
+&lt;/h2&gt;&lt;p&gt; &lt;em&gt;&lt;strong&gt;Nanomachines, son&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt; Or, more seriously, moxels are basically my name for my brand of nanites. The thought is that sometime in the near future, the same technology used to create AMD&amp;rsquo;s 3D CPU chips can be expanded to make small interlocking machines. They&amp;rsquo;re hard to make, as they require exquisite precision only available to the best chip manufacturers and global powers. However, when coupled with the right software, they can be &lt;em&gt;very&lt;/em&gt; powerful, which brings us to&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;moxel-applications&#34;&gt;Moxel applications
+&lt;/h2&gt;&lt;p&gt; Since these are a fairly maleable plot device, I&amp;rsquo;ve come up with a ton of different potential uses moxels.&lt;/p&gt;
+&lt;h3 id=&#34;brain-scanning&#34;&gt;Brain scanning
+&lt;/h3&gt;&lt;p&gt; Having loads of microscopic machines able to form a sensor network allows for very detailed modeling of the human brain. Good enough, in fact, that in some stories, you can upload people by creating a digital copy of their neurons and all their individual links. Unfortunately, that virtual mind takes a lot of processing power.&lt;/p&gt;
+&lt;h3 id=&#34;intelligence-modeling&#34;&gt;Intelligence modeling
+&lt;/h3&gt;&lt;p&gt; Current neural networks work, in an oversimplified way, with huge nets of nodes connected with weighted values, some nodes simply acting as input and output nodes. This is modeled after meatware brains, where neurons (&amp;ldquo;nodes&amp;rdquo;) are connected to each other with synapses (&amp;ldquo;weighted connections&amp;rdquo;) with sensory neurons (&amp;ldquo;input nodes&amp;rdquo;) and motor neurons (&amp;ldquo;output nodes&amp;rdquo;) on the periphery.&lt;/p&gt;
+&lt;p&gt; Since we model neural networks on brains, what if you had individual small computers acting as neurons in some sort of hybrid? Instead of interacting cells, you&amp;rsquo;d have loads of small machines that perform the same functions as cells. If each machine were to have the same connections and weights as a real neuron, and they were all connected in the same ways as a human brain, could you create a human mind? And if those weights and connections were based on a real person, could you effectively upload that person to a network of small machines instead of a network of small cells?&lt;/p&gt;
+&lt;p&gt; In some of my stories, I use this to explain how you could create a person with extraordinary powers while giving those powers limits. In other stories, I use this premise to explain how we create true AI. This is my main way to create antagonists, or occasionally, powerful protagonists.&lt;/p&gt;
+&lt;h3 id=&#34;moxel-clouds&#34;&gt;Moxel clouds
+&lt;/h3&gt;&lt;p&gt; This is something I&amp;rsquo;m not including in some of my more recent stories because it can be stupidly powerful. If a moxel can move independently of a body and network with other moxels, well, what stops a moxel-based being from extending a cloud of moxels from themselves to sense the world around themselves? And moreover, what if the moxels in that cloud could be collected and used?&lt;/p&gt;
+&lt;p&gt; In stories, this practically amounts to absurdly powerful telekinesis and sensing abilities. This can become an issue physics-wise, as the moxels need to push against air to move through the air. For a microscopic particle, it&amp;rsquo;s easy to handwave the wind created by the movement of moxels, but if you&amp;rsquo;re using the moxel cloud to move things, you need to push on a &lt;em&gt;lot&lt;/em&gt; of air. No matter how you count it, if you&amp;rsquo;re going to lift a helicopter-sized mass, you need to push a helicopter downdraft-sized mass of air. That is something that characters should notice and need to plan around, but in all my stories with moxel clouds, I&amp;rsquo;ve just handwaved it away and ignored the problem.&lt;/p&gt;
+&lt;p&gt; There&amp;rsquo;s also the issue of power generation and transmission. There&amp;rsquo;s a few ways to handwave this issue, but none that are terribly convincing to me. They&amp;rsquo;re not the worst handwaves I&amp;rsquo;ve seen, and it&amp;rsquo;s not as if you can&amp;rsquo;t handwave for plot purposes, but I don&amp;rsquo;t like them and want to avoid them in the future. You &lt;em&gt;could&lt;/em&gt; address the power requirements in a few ways. First option is to simply say that each moxel can store a small amount of power in a capacitor and they&amp;rsquo;re quickly refreshing through the cloud, zipping between recharging and the cloud. This would severely limit the size and strength of the moxel cloud, which might actually be very useful is a story. The second option is to use wireless charging, but that requires such huge electrical discharge and is so inefficient I don&amp;rsquo;t think I&amp;rsquo;ll ever use it in a story.&lt;/p&gt;
+&lt;h3 id=&#34;teleportation&#34;&gt;Teleportation
+&lt;/h3&gt;&lt;p&gt; This one&amp;rsquo;s a bit of a stretch, and I usually handwave it, but I &lt;em&gt;love&lt;/em&gt; the idea of a being that can teleport short distances. In some moxel beings, this makes them hard to hit - they dodge Neo-style. In some, they close the distance between themselves and an enemy almost instantly. In some others, this just means that they phase around and are generally menacing. In the nicer characters, this is just something that means their body looks hazy and their silhouette blurs when they get excited.&lt;/p&gt;
+&lt;h3 id=&#34;self-replication&#34;&gt;Self-Replication
+&lt;/h3&gt;&lt;p&gt; I don&amp;rsquo;t think I&amp;rsquo;ve ever really explored this. Granted, if I ever were to, it&amp;rsquo;d be in a very limited sense - not grey goo, but more that moxel-based intelligences can operate and create machinery that creates more moxels. In some other stories, this might be that moxels can absorb mass and convert mass to other moxels, but there are other limits, like the total mass of a moxel being. This is usually just as a way to explain how the characters are able to replenish lost mass and conjure things.&lt;/p&gt;
+&lt;h2 id=&#34;moxel-body-types&#34;&gt;Moxel body types
+&lt;/h2&gt;&lt;p&gt; This depends a lot on the type of story I&amp;rsquo;m writing and what sort of protagonists and antagonists I want. If the protagonists need to be super powerful, then they&amp;rsquo;ll likely be moxel-based constucts, and I&amp;rsquo;ll portray them as a human (Sometimes a self-insert. Hey, I can indulge a bit.). I explain this as the characters being human uploads, so the array of sensory and motor neurons we have only make sense when mapped to a humanoid body. After all, if you&amp;rsquo;re uploaded to computer, you&amp;rsquo;d probably prefer a humanoid body over anything else.&lt;/p&gt;
+&lt;p&gt; But it&amp;rsquo;s not as if there&amp;rsquo;s no perks to being uploaded to moxels. For one, the ability to framejack (a term stolen from Bobiverse) - you can freeze and fast-forward your perception of reality. You can modify your body or create anything from the moxels in your own body. You can basically live in creative mode. Some characters use this for good, some not so much.&lt;/p&gt;
+&lt;p&gt; The other main body type I portray is the &lt;strong&gt;CUBE&lt;/strong&gt;. This is a simple antagonist, as it&amp;rsquo;s a profoundly non-human entity that probably wants to murder you with a wide variety of unknown capabilities. The cubes aren&amp;rsquo;t all powerful, though. Larger cubes, while more powerful, think far slower, as they have far more nodes that are farther apart, so lightspeed delay between nodes physically slows down their processing. The advantage of size is intelligence - while they make decisions slower, the extra complexity in their neural network means that they make better decisions. On the other end, smaller cubes make worse decisions and aren&amp;rsquo;t as capable, but they&amp;rsquo;re able to react faster and move faster.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The Argo, or: I don&#39;t know how to organize a story properly</title>
+        <link>http://localhost:1313/p/the-argo-or-i-dont-know-how-to-organize-a-story-properly/</link>
+        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/the-argo-or-i-dont-know-how-to-organize-a-story-properly/</guid>
+        <description>&lt;h2 id=&#34;the-argo&#34;&gt;The Argo
+&lt;/h2&gt;&lt;p&gt; So I had this idea, late at night, as all good ideas arrive. An idea for a story based in hard science fiction with mild horror and thriller elements. It&amp;rsquo;s not a terribly sophisticated idea, but I liked the setting and speculative technology.&lt;/p&gt;
+&lt;h3 id=&#34;the-setting&#34;&gt;The Setting
+&lt;/h3&gt;&lt;p&gt; I wanted to set this story on an &lt;a class=&#34;link&#34; href=&#34;https://www.wikiwand.com/en/O%27Neill_cylinder&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;O&amp;rsquo;Neil cylinder&lt;/a&gt; called the Argo. This has a few advantages, as it&amp;rsquo;s a pretty self-contained environment and there&amp;rsquo;s a lot of creative freedom in the environment. However, it&amp;rsquo;s also a helluva a challenge. You have to describe the setting in a way that makes sense to an audience that&amp;rsquo;s spent their entire life on Earth. A quick rundown of features that are hard to describe and unintuitive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The horizon curves up.&lt;/li&gt;
+&lt;li&gt;Anyone on the cylinder can look up and see anywhere else.&lt;/li&gt;
+&lt;li&gt;The &amp;ldquo;inner space&amp;rdquo; between the habitable interior surface and the exposed outer surface.&lt;/li&gt;
+&lt;li&gt;Gravity &lt;em&gt;decreases&lt;/em&gt; as you go up towards the central spoke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; The wider world of the story is effectively set in the late 2300s, as humanity has started colonizing nearby star systems. FTL is impossible and near-lightspeed travel comes with insurmountable engineering challenges in the form of energy requirements and micrometor impact damage. So, the colonization ships need to be habitats capable of self-sustaining for hundreds, possibly thousands of years.&lt;/p&gt;
+&lt;p&gt; This makes for a crazy cool and unique setting, but it&amp;rsquo;s also basically impossible to describe without being a god of prose or using an illustration. It&amp;rsquo;s also hard to draw a world that&amp;rsquo;s just so weird and unintuitive, and I&amp;rsquo;m not good at drawing. But, I LOVE this setting, and want to do a lot more with it, but right now, I don&amp;rsquo;t have the illustrative chops to deal with it.&lt;/p&gt;
+&lt;h3 id=&#34;the-characters&#34;&gt;The Characters
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Dae. Our protagonist, a mechanical engineer ~20 years old working on a capstone project. That&amp;rsquo;s literally all that I developed him with. Yeah, he&amp;rsquo;s paper-thin. Following a five-man band structure, he&amp;rsquo;s nominally the Leader, but usually comes off more as the Lancer or Big Buy. When I left the story, he hadn&amp;rsquo;t really &lt;em&gt;done&lt;/em&gt; anything.&lt;/li&gt;
+&lt;li&gt;Marc. Affable ace, best friends with Dae, who&amp;rsquo;s kinda a replacement for his often-absent parents. He switches between the Heart and the Leader. In my mind, I had him the most developed, but it&amp;rsquo;s still not great.&lt;/li&gt;
+&lt;li&gt;Ava. Computer programmer on the same capstone project team as Dae. I didn&amp;rsquo;t develop her much personally, but she fulfils the Smart Guy role, sometimes switching in for the Heart. Best friends with Sarah.&lt;/li&gt;
+&lt;li&gt;Sarah. Nominally the leader until she gets damseled and puppeted by Blue Sky. She has very little characterization beyond &amp;ldquo;tough guy who doesn&amp;rsquo;t take shit.&amp;rdquo; She&amp;rsquo;s basically a walking plot device, and while I planned to characterize her with a recovery from being damseled and puppeted, but stopped writing before that. I was going to do a &amp;ldquo;break the badass,&amp;rdquo; but stopped first.&lt;/li&gt;
+&lt;li&gt;Antonin. Doesn&amp;rsquo;t even deserve a mention, as he does basically nothing and I practically forget he exists.&lt;/li&gt;
+&lt;li&gt;Blue Sky. A moxel construction designed to maintain the Argo and protect its inhabitants, but has interpreted that directive more broadly than originally intended. It enforces a lower tech level, fights off Red Sky, and puppeteers Sarah. It&amp;rsquo;s basically amoral, only trying to fulfill the objective. Not exactly a protagonist, but was intended to be a protagonist-aligned character after they free Sarah and fight through Blue Sky&amp;rsquo;s swarms.&lt;/li&gt;
+&lt;li&gt;Red Sky. Calls itself by a numerical address, became a paperclip maximizer focused on terraforming, as it was a bot working on the Martian terraforming effort. Intent on destroying the enclave in the Argo and using the ship&amp;rsquo;s resources to expand to the stars. The antagonist, it&amp;rsquo;s amoral, just as Blue Sky; it just has a very different objective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-problems&#34;&gt;the Problems
+&lt;/h2&gt;&lt;p&gt; I&amp;rsquo;m just going to give a list.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paper-thin characters. I didn&amp;rsquo;t think them through at all.&lt;/li&gt;
+&lt;li&gt;Uncertain story. I didn&amp;rsquo;t go in with any coherent story in mind besides a few key scenes and some twine between them.&lt;/li&gt;
+&lt;li&gt;Undeveloped world. I didn&amp;rsquo;t really know &lt;em&gt;how&lt;/em&gt; my world worked before writing it.&lt;/li&gt;
+&lt;li&gt;Undeveloped character interactions. Besides the relation between Marc and Dae, I didn&amp;rsquo;t really have anything in mind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-fixes&#34;&gt;The Fixes
+&lt;/h3&gt;&lt;p&gt; Writing a proper long-form story is &lt;em&gt;hard&lt;/em&gt;. I keep underestimating the difficulty and assuming I can plow through with gumption and goodwill. That&amp;rsquo;s not how the world works, and my poor decisions usually catch up with me around page 50. What I need to do is learn to think through a world &lt;em&gt;&lt;strong&gt;first&lt;/strong&gt;&lt;/em&gt;. Make notes, write everything down, come up with an organization system (maybe this website). Whenever I&amp;rsquo;ve tried to organize before, I usually run into issues with quick referencing back - I can&amp;rsquo;t find the information I need. That sounds like an issue with my organization system, and I should probably try to break things down and solve the problem like an engineer.&lt;/p&gt;
+&lt;p&gt; Also, I should write short stories of the different scenes I like to get a feel for the world. The first section of the Argo story isn&amp;rsquo;t actually that bad; I basically wrote it as a short story featuring the characters I&amp;rsquo;d figured out. I think it does an alright job at characterizing them, introducing conflict, and building suspense. Those short stories are also a smaller load to try to think through. They don&amp;rsquo;t require nearly as much long-term planning.&lt;/p&gt;
+&lt;p&gt; The main problem I&amp;rsquo;ll run into with trying to write short stories is that I like to think &lt;strong&gt;big&lt;/strong&gt;. My mind will start with a short story and spiral out to the whole fictional world. This spiraling, while enticing and initially fun, tends to gloss over details and introduce inconsistencies. I need to set a specific, pre-defined endpoint to a short story and &lt;em&gt;stick to it&lt;/em&gt;. Anything more can be the subject of a future short story or part of the larger world. Who knows, maybe it&amp;rsquo;ll make its way to a post here.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

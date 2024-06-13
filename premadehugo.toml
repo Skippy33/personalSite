@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Skippy's Symposium"
+theme = 'hugo-theme-stack'
+paginate = 3

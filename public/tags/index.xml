@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on Skippy&#39;s Symposium</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Recent content in Tags on Skippy&#39;s Symposium</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sebastien Boehme</copyright>
+        <lastBuildDate>Thu, 06 Jun 2024 12:42:43 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Nerd Shit</title>
+        <link>http://localhost:1313/tags/nerd-shit/</link>
+        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/nerd-shit/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Upgrades</title>
+        <link>http://localhost:1313/tags/upgrades/</link>
+        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/upgrades/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Story Elements</title>
+        <link>http://localhost:1313/tags/story-elements/</link>
+        <pubDate>Tue, 04 Jun 2024 12:02:22 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/story-elements/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Crazy Ideas</title>
+        <link>http://localhost:1313/tags/crazy-ideas/</link>
+        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/crazy-ideas/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Me Being Stupid</title>
+        <link>http://localhost:1313/tags/me-being-stupid/</link>
+        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/me-being-stupid/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Moxels</title>
+        <link>http://localhost:1313/tags/moxels/</link>
+        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/moxels/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Science Fiction</title>
+        <link>http://localhost:1313/tags/science-fiction/</link>
+        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/science-fiction/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

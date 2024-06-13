@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Volumetric Flow on Skippy&#39;s Symposium</title>
+        <link>http://localhost:1313/tags/volumetric-flow/</link>
+        <description>Recent content in Volumetric Flow on Skippy&#39;s Symposium</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sebastien Boehme</copyright>
+        <lastBuildDate>Tue, 04 Jun 2024 11:10:57 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/volumetric-flow/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Max Flow</title>
+        <link>http://localhost:1313/p/max-flow/</link>
+        <pubDate>Tue, 04 Jun 2024 11:10:57 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/max-flow/</guid>
+        <description>&lt;h2 id=&#34;max-volumetric-flow&#34;&gt;Max Volumetric Flow
+&lt;/h2&gt;&lt;p&gt; For me, this is one of the most important variables on the printer to maximize, as my motion system can support far faster movement than my nozzle. Unfortunately, I&amp;rsquo;m bad at maximizing this. I&amp;rsquo;ll try to cover all the possible issues I&amp;rsquo;ve ran into with flow rate to maybe help future printer people.&lt;/p&gt;
+&lt;h3 id=&#34;temperature&#34;&gt;Temperature
+&lt;/h3&gt;&lt;p&gt; This is one of the easiest and fastest ways to increase speed - just bump up your temps. However, this isn&amp;rsquo;t a great long-term strategy. I&amp;rsquo;m skeptical of increasing temps for PLA past ~240 degrees, as that seems to be where thermal degradataion starts to become an issue and cooling is strained. It&amp;rsquo;s not &lt;em&gt;pointless&lt;/em&gt;, but in my experience, you start running into dimishing returns.&lt;/p&gt;
+&lt;h3 id=&#34;filament-friction&#34;&gt;Filament Friction
+&lt;/h3&gt;&lt;p&gt; This wasn&amp;rsquo;t something I realized early on, but it&amp;rsquo;s obvious in hindsight - if filament is hard for your extruder to pull off the spool, your extruder won&amp;rsquo;t be able to push it to the nozzle very well. This is not great for me, as I use giant 3kg spools that have a lot of intertia. Having a bowden tube for the whole filament path seems to help a ton.&lt;/p&gt;
+&lt;h3 id=&#34;extruder-pressure&#34;&gt;Extruder Pressure
+&lt;/h3&gt;&lt;p&gt; Again, seems obvious in hindsight - if your extruder can exert more pressure, it can push more plastic out of the hotend. For me, this means just cranking down on the tensioner spring. There are practical limits from filament grinding, but this is a surprisingly good way to fix low flow.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

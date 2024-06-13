@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Engineering on Skippy&#39;s Symposium</title>
+        <link>http://localhost:1313/categories/engineering/</link>
+        <description>Recent content in Engineering on Skippy&#39;s Symposium</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sebastien Boehme</copyright>
+        <lastBuildDate>Thu, 06 Jun 2024 12:42:43 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/engineering/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The Ender 3 Saga</title>
+        <link>http://localhost:1313/p/the-ender-3-saga/</link>
+        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/the-ender-3-saga/</guid>
+        <description>&lt;h2 id=&#34;so-the-ender-3&#34;&gt;So, the Ender 3
+&lt;/h2&gt;&lt;p&gt; If you&amp;rsquo;re as much of a 3D printing nerd as me, you&amp;rsquo;ll know the name. The Ender 3. Some say it with fear or disgust, some with respect. I&amp;rsquo;m somewhere in the middle. Should &lt;em&gt;you&lt;/em&gt; get an ender 3? Hell no. I&amp;rsquo;d recommend almost anything else - an SVO6 or SVO7 is far better for not much more money.&lt;/p&gt;
+&lt;p&gt; But there&amp;rsquo;s a reason this printer is so infamous. It&amp;rsquo;s the most popular 3D printer by far, and its successors continue to be quite popular. It has a dedicated modding community, and a heavily modded ender 3 &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=Y199h1UaJ7U&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;currently holds the world record for fastest speedbenchy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; The unfortunate reason this printer is so heavily modded is that it&amp;rsquo;s shit. Creality is not known for their quality control, and that started with the ender 3. Out of the box, mine came with a bent lead screw and bed more warped than a taco. It uses manual leveling with screws and knobs. The tiny 4010 fan is practically an afterthought. &lt;strong&gt;BUT&lt;/strong&gt;, the printer was able to provide a few servicable prints before falling apart. It hooked people by showing them the possibilities of printing before showing them the dark sides of maintenance and calibration. This page is meant to serve as a cautionary tale against the ender 3, but also show what the printer was good at - teaching you, in exquisite and painful detail, &lt;em&gt;exactly&lt;/em&gt; how a 3D printer works.&lt;/p&gt;
+&lt;h2 id=&#34;the-early-years&#34;&gt;The Early Years
+&lt;/h2&gt;&lt;p&gt; I don&amp;rsquo;t remember much of this time or how I modded the printer since it was few years ago. All I remember was picking up the printer, naming it Monica, and setting it up one excited evening. The next day was spent leveling, trying out filament, and getting my first real print - a bracket to hold the printer&amp;rsquo;s tools. I still remember the feeling, looking at a part that the printer had created seemingly from thin air. Then, an obligatory benchy for testing, and I was off to the races.&lt;/p&gt;
+&lt;p&gt; My first large print showed me the flaws of the printer. I had first bought the printer to make anthropological models, as I am a huge fan of human evolution and wanted models of the hominins. I was never able to get really &lt;em&gt;good&lt;/em&gt; large prints from the ender 3, and that was apparent pretty early on. I don&amp;rsquo;t remember many details, I just remember things not going great, and a few times I considered quitting printing all together.&lt;/p&gt;
+&lt;p&gt; I also ended up installing Octoprint at this time, which I&amp;rsquo;d highly recommend if klipper isn&amp;rsquo;t your jam. It&amp;rsquo;s stupid simple and only takes a Raspberry Pi. It probably saved a few SD cards and got me used to SSH and Putty, which besides just being a useful skill, is necessary for a klipper install.&lt;/p&gt;
+&lt;h2 id=&#34;the-road-to-klipper&#34;&gt;The Road to Klipper
+&lt;/h2&gt;&lt;p&gt; First, my mainboard broke. It was probably my fault, but I can&amp;rsquo;t really remember. I ended up using the BTT SKR mini v3 as my replacement, and since I&amp;rsquo;d heard of klipper as the &amp;ldquo;better firmware,&amp;rdquo; I thought I&amp;rsquo;d try it out. The ender 3 was the first place I really tried out klipper, and while I&amp;rsquo;m not sure it was an actual benefit over the Octoprint I&amp;rsquo;d been using, it &lt;em&gt;was&lt;/em&gt; a nice testbed where I could learn about KIAUH and all the other intricacies and eccentricities of klipper. I never got input shaping on the printer, but I also never really wanted it - it&amp;rsquo;s not as if I&amp;rsquo;m moving fast enough that I need it. This also got me used to the workflows and software I&amp;rsquo;d need for klipperizing future printers, as I&amp;rsquo;ve done for the FLSUN SR. If you like speed and modability, klipper is for you.&lt;/p&gt;
+&lt;h2 id=&#34;volcano-nozzle&#34;&gt;Volcano Nozzle
+&lt;/h2&gt;&lt;p&gt; This, in hindsight, was a terrible idea. I&amp;rsquo;d seen in a CNC Kitchen video that you could use a volcano nozzle right in a standard V6. This is possible, and it works just as he describes in the video - the problem is, it messes up cooling and z offsets. Also, volcano nozzles only improve volumetric flow, an issue I was not having. I (mistakenly) installed a volcano nozzle on a printer that could not benefit from a volcano and only recently learned my lesson. Don&amp;rsquo;t do this unless your cooling and homing setups are ready for it.&lt;/p&gt;
+&lt;h2 id=&#34;cr-touch&#34;&gt;CR-Touch
+&lt;/h2&gt;&lt;p&gt; This was a flat waste of money. The probe broke after about a month. It was a pain to calibrate. That&amp;rsquo;s all I&amp;rsquo;ll really say on the subject. Refer to some lower sections for what you should get instead.&lt;/p&gt;
+&lt;h2 id=&#34;klackender&#34;&gt;Klackender
+&lt;/h2&gt;&lt;p&gt; The &lt;a class=&#34;link&#34; href=&#34;https://kevinakasam.com/klackender/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;klackender&lt;/a&gt; is a mostly-free automatic bed probe for the ender 3 that uses common microswitches and magnets to give your printer capabilities similar to the klicky probe found on many Vorons, Ratrigs, and other DIY printers. It&amp;rsquo;s accurate and cheap, but entirely DIY. Luckily, the macros required were provided by KevinAkaSam, so you don&amp;rsquo;t need to worry about the headache that can be klipper macros.&lt;/p&gt;
+&lt;p&gt; BUT, and this is a huge BUT, it&amp;rsquo;s an entirely DIY mod. There are easier ways to do this that aren&amp;rsquo;t too expensive. An inductive probe like a PINDA is $5-15 on aliexpress and a pretty easy mod. Honestly, I&amp;rsquo;d probably recommend the inductive probe over the klackender for most use cases.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Max Flow</title>
+        <link>http://localhost:1313/p/max-flow/</link>
+        <pubDate>Tue, 04 Jun 2024 11:10:57 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/max-flow/</guid>
+        <description>&lt;h2 id=&#34;max-volumetric-flow&#34;&gt;Max Volumetric Flow
+&lt;/h2&gt;&lt;p&gt; For me, this is one of the most important variables on the printer to maximize, as my motion system can support far faster movement than my nozzle. Unfortunately, I&amp;rsquo;m bad at maximizing this. I&amp;rsquo;ll try to cover all the possible issues I&amp;rsquo;ve ran into with flow rate to maybe help future printer people.&lt;/p&gt;
+&lt;h3 id=&#34;temperature&#34;&gt;Temperature
+&lt;/h3&gt;&lt;p&gt; This is one of the easiest and fastest ways to increase speed - just bump up your temps. However, this isn&amp;rsquo;t a great long-term strategy. I&amp;rsquo;m skeptical of increasing temps for PLA past ~240 degrees, as that seems to be where thermal degradataion starts to become an issue and cooling is strained. It&amp;rsquo;s not &lt;em&gt;pointless&lt;/em&gt;, but in my experience, you start running into dimishing returns.&lt;/p&gt;
+&lt;h3 id=&#34;filament-friction&#34;&gt;Filament Friction
+&lt;/h3&gt;&lt;p&gt; This wasn&amp;rsquo;t something I realized early on, but it&amp;rsquo;s obvious in hindsight - if filament is hard for your extruder to pull off the spool, your extruder won&amp;rsquo;t be able to push it to the nozzle very well. This is not great for me, as I use giant 3kg spools that have a lot of intertia. Having a bowden tube for the whole filament path seems to help a ton.&lt;/p&gt;
+&lt;h3 id=&#34;extruder-pressure&#34;&gt;Extruder Pressure
+&lt;/h3&gt;&lt;p&gt; Again, seems obvious in hindsight - if your extruder can exert more pressure, it can push more plastic out of the hotend. For me, this means just cranking down on the tensioner spring. There are practical limits from filament grinding, but this is a surprisingly good way to fix low flow.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>FLSUN SR upgrades logs &#43; notes</title>
+        <link>http://localhost:1313/p/flsun-sr-upgrades-logs--notes/</link>
+        <pubDate>Sun, 26 May 2024 12:52:07 -0700</pubDate>
+        
+        <guid>http://localhost:1313/p/flsun-sr-upgrades-logs--notes/</guid>
+        <description>&lt;h2 id=&#34;the-flsun-super-racer&#34;&gt;The FLSUN Super Racer
+&lt;/h2&gt;&lt;h3 id=&#34;stock-overview&#34;&gt;Stock overview
+&lt;/h3&gt;&lt;p&gt; The Super Racer(!) is a delta printer created by the company FLSUN, first released a while ago. Most of its marketing is directed towards its speed, and when I bought it, the printer was a leader in off-the-shelf speed. Marketed with top speeds of 150mm/s and with stock accelerations in the 2-3k range, in the pre-bambu days, that was an impressive speed, and for only ~500 dollars, an impressive price. Sure, the printer was missing some nice features, like direct drive. Sure, it was a pretty weird configuration back when most printer used i3/cartesian systems. But I was sick of my Ender 3&amp;rsquo;s constant requirement for modification and tinkering, this thing came with a bed probe, and I had a very low budget. So, I picked one up on a trip to Microcenter, named it Joshua, and got to work.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a photo of the stock printer:
+&lt;img src=&#34;http://localhost:1313/img/stock-SR.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;stock SR&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;delta-weirdness&#34;&gt;Delta weirdness
+&lt;/h3&gt;&lt;p&gt; Delta printers are weird. Cartesian and i3 motion systems make intuitive sense, but deltas take a bit more time to get used to. They&amp;rsquo;re pretty far out there compared to the other motion systems, so I&amp;rsquo;ll probably just make a pros/cons list for delta printers. Overall, I love the format because it looks amazing and fits my needs very well.&lt;/p&gt;
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast. Because deltas have 3 motors exerting force for every move, they can be blazingly fast.&lt;/li&gt;
+&lt;li&gt;Stable. Since the bed doesn&amp;rsquo;t move, it can be fixed in place. I don&amp;rsquo;t really need to level my bed.&lt;/li&gt;
+&lt;li&gt;Simple. This is mostly in comparison to coreXY systems, but deltas are symmetrical and, IMO, pretty easy to get a grasp of mechanically.&lt;/li&gt;
+&lt;li&gt;Large print area, though with a circular bed and an emphasis on height.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Time-consuming to maintain. This is more an SR thing, but replacing a nozzle is a relatively time-consuming task compared to other printers.&lt;/li&gt;
+&lt;li&gt;Details of the machine can get messy. Software is easy to get &amp;ldquo;good enough&amp;rdquo;, but not &lt;em&gt;perfect&lt;/em&gt;. Belt tension can be a royal pain as well.&lt;/li&gt;
+&lt;li&gt;Low support. The system is pretty uncommon, so finding support online can be tricky.&lt;/li&gt;
+&lt;li&gt;Not enclosed. Not a huge issue for me, but good luck printing HIPS or ABS or anything fancier.&lt;/li&gt;
+&lt;li&gt;Speed is &lt;em&gt;heavily&lt;/em&gt; dependent on toolhead mass. Adding direct drive will kill your speed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;upgrades&#34;&gt;Upgrades
+&lt;/h2&gt;&lt;h3 id=&#34;klipper-firmware&#34;&gt;Klipper Firmware
+&lt;/h3&gt;&lt;p&gt; The first upgrade I tried was klipperization. I&amp;rsquo;d already klipperized my ender 3, and was somewhat familiar with the software. The SR, however, pushed me to my limits. Given the printer has basically no online documentation, this took me about a month, and I fried my board at one point. Given my difficulties, it&amp;rsquo;s probably for the best I put my experiences online somewhere to help future travelers.&lt;/p&gt;
+&lt;p&gt; First mistake: I didn&amp;rsquo;t use &lt;a class=&#34;link&#34; href=&#34;https://github.com/th33xitus/kiauh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KIAUH&lt;/a&gt;. It&amp;rsquo;s by far the best and most useful klipperization tool, and if you aren&amp;rsquo;t using it, I recommend you start right now. It&amp;rsquo;s stupid simple, and it Just Works™.&lt;/p&gt;
+&lt;p&gt; Second mistake: I tried to follow the &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=Cj7KpzbgExQ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Teaching Tech video&lt;/a&gt;. The video itself is very well-made, and Teaching Tech does a great job with his explanations and walkthroughs. The problem is that there was a design change to the SR after this video was made, and now it&amp;rsquo;s entirely outdated. Modern SRs, as far as I can tell, use an MKS Robin Nano V3 board, rather than the BTT SKR V1.3. His &amp;ldquo;make menuconfig&amp;rdquo; settings are completely wrong, so here&amp;rsquo;s the settings I found worked for the nano v3:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;STMicroenectronics STM32&lt;/li&gt;
+&lt;li&gt;STM32F407 chip&lt;/li&gt;
+&lt;li&gt;48 KiB bootloader&lt;/li&gt;
+&lt;li&gt;use a small, preferably 8 gig SD card formatted FAT32 with 4096 grouping.&lt;/li&gt;
+&lt;li&gt;set the file name to Robin_nano_v3.bin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Third mistake: I probably fried a few boards and pins. Always be careful with wiring, always unplug when changing wiring.&lt;/p&gt;
+&lt;h3 id=&#34;klipper-config&#34;&gt;Klipper Config
+&lt;/h3&gt;&lt;p&gt; I&amp;rsquo;m sorry my config isn&amp;rsquo;t really going to be much help, as I&amp;rsquo;ve done a &lt;em&gt;lot&lt;/em&gt; of fuckery to this printer, and the configs reflect that. I&amp;rsquo;ll &lt;a class=&#34;link&#34; href=&#34;https://github.com/Skippy33/FLSUN-SR-klipper-configs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;post them for reference&lt;/a&gt;, but &lt;em&gt;DON&amp;rsquo;T&lt;/em&gt; copy-paste them. They&amp;rsquo;re for reference, nothing more.&lt;/p&gt;
+&lt;h3 id=&#34;all-metal-heatbreak&#34;&gt;All-Metal Heatbreak
+&lt;/h3&gt;&lt;p&gt; Here&amp;rsquo;s a tip &lt;strong&gt;they&lt;/strong&gt; don&amp;rsquo;t want you to know. You &lt;em&gt;don&amp;rsquo;t actually need a new hotend to have an all-metal hotend&lt;/em&gt;. You can just replace the heatbreak. I just bought a 10$ all-metal heatbreak on Amazon, anything designed for a V6 hotend will do - the specific one I bought was labeled for CR-10s. This is a super cheap upgrade that unlocks PETG and ABS printing, and all you need to do is disassemble the hotend. Overall, a 10/10 upgrade, would highly recommend.&lt;/p&gt;
+&lt;h3 id=&#34;5015-fans&#34;&gt;5015 Fans
+&lt;/h3&gt;&lt;p&gt; This is another pretty good no-brainer upgrade. These fans are pretty cheap on amazon, and have a &lt;em&gt;wayyy&lt;/em&gt; higher flow than the rinky-dink 4010s the SR comes with. Frankly, I don&amp;rsquo;t know why the printer comes with 4010s, as they&amp;rsquo;re woefully underpowered compared to the printer itself. However, I still found the 5015s underpowered compared to what I wanted, so I changed some more things.&lt;/p&gt;
+&lt;h3 id=&#34;fan-ducts&#34;&gt;Fan Ducts
+&lt;/h3&gt;&lt;p&gt; Again, the SR comes with some pretty sub-standard equipment. The ducts the printer comes with are &lt;em&gt;terrible&lt;/em&gt;, and running some tests, I was able to find some ducts on the internet that are a lot better. &lt;a class=&#34;link&#34; href=&#34;https://www.printables.com/model/334581-flsun-super-racer-sr-double-fan-duct&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;This one&lt;/a&gt; is the one I use, but you should probably experiment with some different models. I found all mine on printables.&lt;/p&gt;
+&lt;h3 id=&#34;ducted-cooling&#34;&gt;Ducted Cooling
+&lt;/h3&gt;&lt;p&gt; This was probably my best upgrade, though it&amp;rsquo;s not for everyone. This is my DIY garage version of the common CPAP cooling upgrade. I had an old fan salvaged from a hulky Stratsys printer a school was throwing out. Initially, I used a single wide tube I&amp;rsquo;d salvaged from the same printer, and that did work for a while. However, that tube was really stiff, which was messing up my input shaper graphs. Here&amp;rsquo;s an image of the first deported fan build: &lt;img src=&#34;http://localhost:1313/img/one-tube.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;first photo&#34;
+	
+	
+&gt; Yes, it&amp;rsquo;s jank as hell, but it worked.&lt;/p&gt;
+&lt;p&gt;Later, I decided on two thin and flexible CPAP tubes. This cleaned up my input shaper graphs and actually provided more airflow. This was the best thing I ever did for my printer&amp;rsquo;s cooling, and overhangs upwards of 60% with PLA and a .6 nozzle are completely feasible and look pretty nice. If it&amp;rsquo;s an option, I&amp;rsquo;d even recommend skipping right over the 5015 fans.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a photo of the fan and the eventual two tube setup:
+&lt;img src=&#34;http://localhost:1313/img/deported-fan.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;deported fan&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;flying-extruder&#34;&gt;Flying Extruder
+&lt;/h3&gt;&lt;p&gt; This upgrade isn&amp;rsquo;t too expensive, and is actually pretty nice, especially if you intend to enclose the printer. You see, the stock extruder sits out from the main triangle, jutting from the top. It works as a configuration, but I wanted to enclose my printer, and the easiest way to do that is to just cover the sides with big flat panels. The extruder gets in the way, and that just won&amp;rsquo;t do. So, I downloaded &lt;a class=&#34;link&#34; href=&#34;https://www.printables.com/model/84444-flystruder-delta-printer-flsun-sr/files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this model&lt;/a&gt; from a lovely frenchman and printed it in PETG. The assembly was pretty easy, only taking a few M4 screws, and I just moved the stock extruder onto the plate, and presto, a flying extruder was born! I did also need to wire it up with bungee cord, but that stuff was pretty cheap. A few tips though -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The weight of the flying gantry shouldn&amp;rsquo;t matter. Ideally, the motor should be almost completely stationary as the printhead moves, &amp;ldquo;flying&amp;rdquo; above the toolhead.&lt;/li&gt;
+&lt;li&gt;Make sure the wires are fairly tight. If they&amp;rsquo;re too loose, the gantry will sag, messing with your input shaper graphs.&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re using deported cooling, it&amp;rsquo;s a good idea to tie the tubes to the flying gantry.&lt;/li&gt;
+&lt;li&gt;There should be no tension on the bowden tube. Tension on the bowden tube will destroy it in the long run.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Some people, such as &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@jamespray/videos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;James Pray&lt;/a&gt;, will build a flying gantry without the bungee cords, instead using assemblies of springs and printed dampners. The main advantage of this setup is that the extruder can be closer to the hotend, reducing the length of the bowden tube. However, this system has a few disadvantages that make it impractical for me. This sort of system is more complex and expensive, two things I am not a fan of.&lt;/p&gt;
+&lt;p&gt; I left the filament switch dangling after I removed the bar mounting it. I just push the filament through the switch and leave it hanging, but I really don&amp;rsquo;t need the switch most of the time, and I could leave a separate piece of filament in there most of the time without issue.&lt;/p&gt;
+&lt;p&gt; Also, I&amp;rsquo;d recommend using a reverse bowden setup between the flying extruder and the top of the printer. It&amp;rsquo;s a good way to reduce friction along the filament path.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a photo of the flying extruder:
+&lt;img src=&#34;http://localhost:1313/img/flying-extruder.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;flying extruder&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;chc-hotend-and-cht-nozzle&#34;&gt;CHC Hotend and CHT Nozzle
+&lt;/h3&gt;&lt;p&gt; I&amp;rsquo;m not too sure on this upgrade. They&amp;rsquo;re cheap enough through TriangleLabs on Aliexpress, and do offer some benefits over the stock hotend - it seems faster anecdotally, and they heat up &lt;em&gt;wayyyy&lt;/em&gt; faster. For 12 dollars, I&amp;rsquo;d recommend a 60-100W heater as a replacement for when your stock hotend gives out. The CHT nozzle, however, is a must-have if you want high flow rates. Anecdotally, I was noticing a ~%33 increase in volumetric flow. I don&amp;rsquo;t have the equipment to do a proper, rigorous flow test, but given that volcano CHT nozzles are nearly the same price as regular volcano nozzles through Aliexpress, it&amp;rsquo;s an upgrade I&amp;rsquo;d highly recommend.&lt;/p&gt;
+&lt;h3 id=&#34;ultralight-effector&#34;&gt;Ultralight Effector
+&lt;/h3&gt;&lt;p&gt; This is maybe the first upgrade where I&amp;rsquo;ve actually questioned its necessity. I uploaded the model to printables &lt;a class=&#34;link&#34; href=&#34;https://www.printables.com/model/897132-flsun-sr-ultralight-effector&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;, but I don&amp;rsquo;t think I&amp;rsquo;d recommend it to anyone but the most diehard speedsters. I originally printed the effector in CF-PETG, and while it was much lighter than my mostly-stock effector (135g instead of 211g), it was also not stiff at all. The lack of stiffness led to terrible input shaper results despite the reduced weight. Part of that is likely my plastic, as the &amp;ldquo;carbon fiber&amp;rdquo; in the CF-PETG I was using was mostly aesthetic. Reprinting in PLA led to input shaper near-equivalent to the stock effector. In dicussion with some delta printer gurus such as &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@jamespray/videos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cophaeler&lt;/a&gt;, I was pointed to another issue that could be leading to my input shaper spikes - frame stiffness. I&amp;rsquo;ve attatched my input shaper graphs, and even with quite different configurations, the peak at 50hz is very consistent. This points to frame (or possibly table) stiffness as a greater contributor to vibrations in my case. I&amp;rsquo;ll do some more experimenting and investigating, especually the possibiltiy that I need to tighten some screws or check my flying extruder setup. In the meantime, I&amp;rsquo;ll say this upgrade has dubious value.&lt;/p&gt;
+&lt;p&gt;PETG graph -
+&lt;img src=&#34;http://localhost:1313/img/ultralight_PETG_shaper_calibrate_x.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;flying extruder&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;PLA graph -
+&lt;img src=&#34;http://localhost:1313/img/ultralight_PLA_shaper_calibrate_x.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;flying extruder&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt; So, what did I get out of all of this? At the start, stock speeds were ~150mm/s at 3k mm/s^2. The deported cooling and klipperization got recommended accelerations to ~6k and top speeds of ~250mm/s. Making the tubes more flexible, and those accelerations are pushed to ~10k. I haven&amp;rsquo;t ran any speedbenchies, but print times are between 1/2 and 1/3 stock times, depending on the print. Overall, for the price, it wasn&amp;rsquo;t that bad. And to be honest, I really liked the process of modifying and building up the printer to its current capabilities. However, my biggest cap hasn&amp;rsquo;t really changed - flow rate. I can&amp;rsquo;t really figure out how to increase flow rate without decreasing my bank account or increasing temperatures past reason.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
