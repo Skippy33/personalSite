@@ -7,12 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sebastien Boehme</copyright>
-        <lastBuildDate>Thu, 06 Jun 2024 12:42:43 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 15 Jun 2024 21:04:13 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Crazy Ideas</title>
+        <link>http://localhost:1313/tags/crazy-ideas/</link>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/crazy-ideas/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Nerd Shit</title>
         <link>http://localhost:1313/tags/nerd-shit/</link>
-        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
         
         <guid>http://localhost:1313/tags/nerd-shit/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Science Fiction</title>
+        <link>http://localhost:1313/tags/science-fiction/</link>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
+        
+        <guid>http://localhost:1313/tags/science-fiction/</guid>
         <description></description>
         </item>
         <item>
@@ -32,14 +48,6 @@
         <description></description>
         </item>
         <item>
-        <title>Crazy Ideas</title>
-        <link>http://localhost:1313/tags/crazy-ideas/</link>
-        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
-        
-        <guid>http://localhost:1313/tags/crazy-ideas/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Me Being Stupid</title>
         <link>http://localhost:1313/tags/me-being-stupid/</link>
         <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
@@ -53,14 +61,6 @@
         <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
         
         <guid>http://localhost:1313/tags/moxels/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Science Fiction</title>
-        <link>http://localhost:1313/tags/science-fiction/</link>
-        <pubDate>Tue, 04 Jun 2024 11:56:46 -0700</pubDate>
-        
-        <guid>http://localhost:1313/tags/science-fiction/</guid>
         <description></description>
         </item>
         

@@ -19,7 +19,7 @@ tags = [
 &emsp;The Super Racer(!) is a delta printer created by the company FLSUN, first released a while ago. Most of its marketing is directed towards its speed, and when I bought it, the printer was a leader in off-the-shelf speed. Marketed with top speeds of 150mm/s and with stock accelerations in the 2-3k range, in the pre-bambu days, that was an impressive speed, and for only ~500 dollars, an impressive price. Sure, the printer was missing some nice features, like direct drive. Sure, it was a pretty weird configuration back when most printer used i3/cartesian systems. But I was sick of my Ender 3's constant requirement for modification and tinkering, this thing came with a bed probe, and I had a very low budget. So, I picked one up on a trip to Microcenter, named it Joshua, and got to work.
 
 Here's a photo of the stock printer:
-![stock SR](img/stock-SR.jpg)
+![stock SR](stock-SR.jpg)
 
 ### Delta weirdness
 
@@ -76,12 +76,12 @@ Cons:
 
 ### Ducted Cooling
 
-&emsp;This was probably my best upgrade, though it's not for everyone. This is my DIY garage version of the common CPAP cooling upgrade. I had an old fan salvaged from a hulky Stratsys printer a school was throwing out. Initially, I used a single wide tube I'd salvaged from the same printer, and that did work for a while. However, that tube was really stiff, which was messing up my input shaper graphs. Here's an image of the first deported fan build: ![first photo](img/one-tube.jpg) Yes, it's jank as hell, but it worked.
+&emsp;This was probably my best upgrade, though it's not for everyone. This is my DIY garage version of the common CPAP cooling upgrade. I had an old fan salvaged from a hulky Stratsys printer a school was throwing out. Initially, I used a single wide tube I'd salvaged from the same printer, and that did work for a while. However, that tube was really stiff, which was messing up my input shaper graphs. Here's an image of the first deported fan build: ![first photo](one-tube.jpg) Yes, it's jank as hell, but it worked.
 
 Later, I decided on two thin and flexible CPAP tubes. This cleaned up my input shaper graphs and actually provided more airflow. This was the best thing I ever did for my printer's cooling, and overhangs upwards of 60% with PLA and a .6 nozzle are completely feasible and look pretty nice. If it's an option, I'd even recommend skipping right over the 5015 fans.
 
 Here's a photo of the fan and the eventual two tube setup:
-![deported fan](img/deported-fan.jpg)
+![deported fan](deported-fan.jpg)
 
 ### Flying Extruder
 
@@ -99,7 +99,7 @@ Here's a photo of the fan and the eventual two tube setup:
 &emsp;Also, I'd recommend using a reverse bowden setup between the flying extruder and the top of the printer. It's a good way to reduce friction along the filament path.
 
 Here's a photo of the flying extruder:
-![flying extruder](img/flying-extruder.jpg)
+![flying extruder](flying-extruder.jpg)
 
 ### CHC Hotend and CHT Nozzle
 
@@ -111,10 +111,10 @@ Here's a photo of the flying extruder:
 
 
 PETG graph -
-![flying extruder](img/ultralight_PETG_shaper_calibrate_x.jpg)
+![flying extruder](ultralight_PETG_shaper_calibrate_x.jpg)
 
 PLA graph -
-![flying extruder](img/ultralight_PLA_shaper_calibrate_x.jpg)
+![flying extruder](ultralight_PLA_shaper_calibrate_x.jpg)
 
 ## Conclusion
 

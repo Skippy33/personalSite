@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sebastien Boehme</copyright>
-        <lastBuildDate>Thu, 06 Jun 2024 12:42:43 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 15 Jun 2024 21:04:13 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>3D Printing</title>
         <link>http://localhost:1313/categories/3d-printing/</link>
-        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
         
         <guid>http://localhost:1313/categories/3d-printing/</guid>
         <description></description>
@@ -18,9 +18,17 @@
         <item>
         <title>Engineering</title>
         <link>http://localhost:1313/categories/engineering/</link>
-        <pubDate>Thu, 06 Jun 2024 12:42:43 -0700</pubDate>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
         
         <guid>http://localhost:1313/categories/engineering/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Projects</title>
+        <link>http://localhost:1313/categories/projects/</link>
+        <pubDate>Sat, 15 Jun 2024 21:04:13 -0700</pubDate>
+        
+        <guid>http://localhost:1313/categories/projects/</guid>
         <description></description>
         </item>
         <item>

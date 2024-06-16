@@ -8,7 +8,7 @@ categories = [
 tags = [
     "Me being stupid",
     "Crazy ideas",
-    "Science Fiction",
+    "science fiction",
     "moxels"
 ]
 +++
