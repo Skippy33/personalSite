@@ -46,14 +46,18 @@
 &lt;/h2&gt;&lt;h3 id=&#34;stock-overview&#34;&gt;Stock overview
 &lt;/h3&gt;&lt;p&gt; The Super Racer(!) is a delta printer created by the company FLSUN, first released a while ago. Most of its marketing is directed towards its speed, and when I bought it, the printer was a leader in off-the-shelf speed. Marketed with top speeds of 150mm/s and with stock accelerations in the 2-3k range, in the pre-bambu days, that was an impressive speed, and for only ~500 dollars, an impressive price. Sure, the printer was missing some nice features, like direct drive. Sure, it was a pretty weird configuration back when most printer used i3/cartesian systems. But I was sick of my Ender 3&amp;rsquo;s constant requirement for modification and tinkering, this thing came with a bed probe, and I had a very low budget. So, I picked one up on a trip to Microcenter, named it Joshua, and got to work.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s a photo of the stock printer:
-&lt;img src=&#34;http://localhost:1313/img/stock-SR.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/stock-SR.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/stock-SR_hueee5e87989b1b5716dba73d82d781a25_3294807_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/stock-SR_hueee5e87989b1b5716dba73d82d781a25_3294807_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;stock SR&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;delta-weirdness&#34;&gt;Delta weirdness
@@ -99,26 +103,34 @@
 &lt;/h3&gt;&lt;p&gt; Again, the SR comes with some pretty sub-standard equipment. The ducts the printer comes with are &lt;em&gt;terrible&lt;/em&gt;, and running some tests, I was able to find some ducts on the internet that are a lot better. &lt;a class=&#34;link&#34; href=&#34;https://www.printables.com/model/334581-flsun-super-racer-sr-double-fan-duct&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;This one&lt;/a&gt; is the one I use, but you should probably experiment with some different models. I found all mine on printables.&lt;/p&gt;
 &lt;h3 id=&#34;ducted-cooling&#34;&gt;Ducted Cooling
-&lt;/h3&gt;&lt;p&gt; This was probably my best upgrade, though it&amp;rsquo;s not for everyone. This is my DIY garage version of the common CPAP cooling upgrade. I had an old fan salvaged from a hulky Stratsys printer a school was throwing out. Initially, I used a single wide tube I&amp;rsquo;d salvaged from the same printer, and that did work for a while. However, that tube was really stiff, which was messing up my input shaper graphs. Here&amp;rsquo;s an image of the first deported fan build: &lt;img src=&#34;http://localhost:1313/img/one-tube.jpg&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt; This was probably my best upgrade, though it&amp;rsquo;s not for everyone. This is my DIY garage version of the common CPAP cooling upgrade. I had an old fan salvaged from a hulky Stratsys printer a school was throwing out. Initially, I used a single wide tube I&amp;rsquo;d salvaged from the same printer, and that did work for a while. However, that tube was really stiff, which was messing up my input shaper graphs. Here&amp;rsquo;s an image of the first deported fan build: &lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/one-tube.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/one-tube_hu5245aa30230358e7c05eeae2d55bcce1_3319750_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/one-tube_hu5245aa30230358e7c05eeae2d55bcce1_3319750_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;first photo&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
 &gt; Yes, it&amp;rsquo;s jank as hell, but it worked.&lt;/p&gt;
 &lt;p&gt;Later, I decided on two thin and flexible CPAP tubes. This cleaned up my input shaper graphs and actually provided more airflow. This was the best thing I ever did for my printer&amp;rsquo;s cooling, and overhangs upwards of 60% with PLA and a .6 nozzle are completely feasible and look pretty nice. If it&amp;rsquo;s an option, I&amp;rsquo;d even recommend skipping right over the 5015 fans.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s a photo of the fan and the eventual two tube setup:
-&lt;img src=&#34;http://localhost:1313/img/deported-fan.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/deported-fan.jpg&#34;
+	width=&#34;2774&#34;
+	height=&#34;2332&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/deported-fan_hu3941651df2f1975cfd87dfe8c4afb297_1176076_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/deported-fan_hu3941651df2f1975cfd87dfe8c4afb297_1176076_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;deported fan&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;flying-extruder&#34;&gt;Flying Extruder
@@ -135,14 +147,18 @@
 &lt;p&gt; I left the filament switch dangling after I removed the bar mounting it. I just push the filament through the switch and leave it hanging, but I really don&amp;rsquo;t need the switch most of the time, and I could leave a separate piece of filament in there most of the time without issue.&lt;/p&gt;
 &lt;p&gt; Also, I&amp;rsquo;d recommend using a reverse bowden setup between the flying extruder and the top of the printer. It&amp;rsquo;s a good way to reduce friction along the filament path.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s a photo of the flying extruder:
-&lt;img src=&#34;http://localhost:1313/img/flying-extruder.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/flying-extruder.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/flying-extruder_hu538b1da315eafcebe125bb9cd69db2d4_2558702_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/flying-extruder_hu538b1da315eafcebe125bb9cd69db2d4_2558702_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flying extruder&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;chc-hotend-and-cht-nozzle&#34;&gt;CHC Hotend and CHT Nozzle
@@ -152,25 +168,33 @@
     &gt;here&lt;/a&gt;, but I don&amp;rsquo;t think I&amp;rsquo;d recommend it to anyone but the most diehard speedsters. I originally printed the effector in CF-PETG, and while it was much lighter than my mostly-stock effector (135g instead of 211g), it was also not stiff at all. The lack of stiffness led to terrible input shaper results despite the reduced weight. Part of that is likely my plastic, as the &amp;ldquo;carbon fiber&amp;rdquo; in the CF-PETG I was using was mostly aesthetic. Reprinting in PLA led to input shaper near-equivalent to the stock effector. In dicussion with some delta printer gurus such as &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@jamespray/videos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;cophaeler&lt;/a&gt;, I was pointed to another issue that could be leading to my input shaper spikes - frame stiffness. I&amp;rsquo;ve attatched my input shaper graphs, and even with quite different configurations, the peak at 50hz is very consistent. This points to frame (or possibly table) stiffness as a greater contributor to vibrations in my case. I&amp;rsquo;ll do some more experimenting and investigating, especually the possibiltiy that I need to tighten some screws or check my flying extruder setup. In the meantime, I&amp;rsquo;ll say this upgrade has dubious value.&lt;/p&gt;
 &lt;p&gt;PETG graph -
-&lt;img src=&#34;http://localhost:1313/img/ultralight_PETG_shaper_calibrate_x.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PETG_shaper_calibrate_x.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;600&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PETG_shaper_calibrate_x_hu5fb12f77a487a1f5e9588f7bbd0323ef_110582_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PETG_shaper_calibrate_x_hu5fb12f77a487a1f5e9588f7bbd0323ef_110582_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flying extruder&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;PLA graph -
-&lt;img src=&#34;http://localhost:1313/img/ultralight_PLA_shaper_calibrate_x.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PLA_shaper_calibrate_x.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;600&#34;
+	srcset=&#34;http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PLA_shaper_calibrate_x_hu764048be1d477d4f31da16e07f1f272c_111294_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/flsun-sr-upgrades-logs--notes/ultralight_PLA_shaper_calibrate_x_hu764048be1d477d4f31da16e07f1f272c_111294_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flying extruder&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion

@@ -1,7 +1,7 @@
 +++
 title = 'GIANT ROBOT ARMS!!!!'
 date = 2024-06-15T21:04:13-07:00
-draft = true
+draft = false
 categories = [
     "engineering",
     "3D printing",

@@ -368,67 +368,6 @@
 &lt;/h2&gt;&lt;p&gt; So, what did I get out of all of this? At the start, stock speeds were ~150mm/s at 3k mm/s^2. The deported cooling and klipperization got recommended accelerations to ~6k and top speeds of ~250mm/s. Making the tubes more flexible, and those accelerations are pushed to ~10k. I haven&amp;rsquo;t ran any speedbenchies, but print times are between 1/2 and 1/3 stock times, depending on the print. Overall, for the price, it wasn&amp;rsquo;t that bad. And to be honest, I really liked the process of modifying and building up the printer to its current capabilities. However, my biggest cap hasn&amp;rsquo;t really changed - flow rate. I can&amp;rsquo;t really figure out how to increase flow rate without decreasing my bank account or increasing temperatures past reason.&lt;/p&gt;
 </description>
         </item>
-        <item>
-        <title>Reference</title>
-        <link>http://localhost:1313/p/reference/</link>
-        <pubDate>Sat, 25 May 2024 21:04:56 -0700</pubDate>
-        
-        <guid>http://localhost:1313/p/reference/</guid>
-        <description>&lt;h1 id=&#34;h1-block&#34;&gt;H1 Block
-&lt;/h1&gt;&lt;h2 id=&#34;h2-block&#34;&gt;H2 Block
-&lt;/h2&gt;&lt;h3 id=&#34;and-so-on&#34;&gt;and so on
-&lt;/h3&gt;&lt;p&gt;  here&amp;rsquo;s a tab&lt;/p&gt;
-&lt;p&gt;This is a reference that should only ever be visible in draft mode&lt;/p&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;italicized&lt;/em&gt; text.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And this is an ordered list&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;item1&lt;/li&gt;
-&lt;li&gt;item2&lt;/li&gt;
-&lt;li&gt;item3&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;And this is an unordered list&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;itema&lt;/li&gt;
-&lt;li&gt;itemb&lt;/li&gt;
-&lt;li&gt;itemc&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;print(&amp;quot;HellO! This is a code block!&amp;quot;)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s something that needs a footnote &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;And here&amp;rsquo;s something that needs a definition&lt;/dt&gt;
-&lt;dd&gt;definition&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;&lt;del&gt;and here&amp;rsquo;s something stupid&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;and here&amp;rsquo;s an emoji :joy:&lt;/p&gt;
-&lt;p&gt;And here&amp;rsquo;s something that needs ==highlighting==.&lt;/p&gt;
-&lt;p&gt;And my chem teacher will shoot me if I don&amp;rsquo;t properly ~subscript~ and ^superscript^.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;This is the markdown cheatsheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;And this is an image
-&lt;img src=&#34;http://localhost:1313/img/puppies.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;puppies!&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;and here&amp;rsquo;s the footnote&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        </item>
         
     </channel>
 </rss>
