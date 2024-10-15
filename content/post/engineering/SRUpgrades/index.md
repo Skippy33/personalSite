@@ -5,10 +5,10 @@ draft = false
 categories = [
     "engineering",
     "3D printing",
+    "WIP"
 ]
 tags = [
-    "upgrades",
-    "nerd shit",
+    "upgrades"
 ]
 +++
 

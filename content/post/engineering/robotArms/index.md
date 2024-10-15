@@ -8,7 +8,6 @@ categories = [
     "projects"
 ]
 tags = [
-    "nerd shit",
     "science fiction",
     "crazy ideas"
 ]
@@ -16,32 +15,11 @@ tags = [
 
 ## The Inspiration
 
-&emsp;In December 2023, I watched an [animation by Liam Vickers on youtube](https://www.youtube.com/watch?v=RgNz7ltN-Nk) about a character named IC-0n. IC-0n's gimmick is that she's basically omnipotent, goofy, and has a penchant for murder. And while this specific combination captivated me for a few months, I *really* liked IC-0n's giant robot arms. The idea had already been in my head for a while thanks to the show Inside Job, where one of the main characters invents GIANT ROBOT ARMS(!!!!). There were also a few animations where characters had mechanical wings, and I thought they looked *really* cool. So, I decided I had to make some of my own and wear them for my last day of school. I had a 3D printer and six months to spare, it couldn't be *that* hard. Right? This would be my first real *big* project, and as such, has proved to be a valuable lesson in "dos" and "don'ts".
+&emsp;In December 2023, I watched a bit too mujch TV. For some reason, I really liked the idea of robot arms. The idea had already been in my head for a while thanks to the show Inside Job, where one of the main characters invents GIANT ROBOT ARMS(!!!!). There were also a few animations where characters had mechanical wings, and I thought they looked *really* cool. So, I decided I had to make some of my own and wear them for my last day of school. I had a 3D printer and six months to spare, it couldn't be *that* hard. Right? This would be my first real *big* project, and as such, has proved to be a valuable lesson in "dos" and "don'ts".
 
-## References
+## Conceptual Design 
 
-### IC-0n
-
-&emsp;I didn't have much to go on. The hand I wanted to base on IC-0n's talons, and the arm segments on Inside Job, but not much more. Most of the content I used was also animated, and the animators hadn't really worried about the mechanical or physical feasibility of their arms, so I had a tough time trying to figure out what exactly to build. I took a few screenshots and tried to piece together exactly what I needed.
-
-![](image3.png)
-![](image2.png)
-
-![](image1.png)
-![](image4.png)
-![](image5.png)
-
-&emsp;Unfortunately, the IC-0n screenshots are wildly inconsistent and mechanically impossible. Fortunately, this gave me a *lot* of artistic license to make design and manufacturing simplifications. I decided to go with a hand design similar to the top images and bottom-center images, as those seemed to be the most realistic. Each finger would be built with a metacarpal, phalanx, and claw, or the first, second, and third segments respectively. I'd use three fingers and a thumb, each with the same standardized construction. 
-
-&emsp;The boxy palm seen in IC-0n's character art was an almost immediate no-go. It would have been hard to assemble and probably exceeded my build volume. I decided to design the palm as a much more open frame, looking more like the tendons in your hand. Originally, I also wanted to be able to actuate the hands with a bowden cable, which necessitated a more complicated design with actuation levers.
-
-### Inside Job
-
-![](image6.webp)
-
-&emsp;I knew that this would be *really* hard to recreate in real life, because this design is basically impossible. The arms should be too heavy for Reagan to hold on a small backpack, the arms get *wider* as they get farther from the base, and the hands are just ridiculous - they were made to look cool as hell, not to be mechanically accurate. But I wanted to make something that *looked* similar and had the same feel.
-
-&emsp;In the end, I decided that I'd go for a similar cylindrical design for the arms, but with *very* different joints. This may have ultimately been a mistake.
+&emsp;When I built the project originally, I wasn't thinking in terms of conceptual and detailed design, buit I did have a vague concept of what I wanted to do. First, I wanted the arms to be big and bulky - that's kinda the point. They were built to look cool, not to be useful. They still had to fit through doors, but not necessarily well. They had to be able to be constructed, like lego or technic bricks, so I could take them apart and carry them in a bag. The hands also had to look imposing and impressive. That's vague, but it implies that it'll need to be large and *look* complicated. 
 
 ## Arm Design
 
@@ -75,7 +53,7 @@ Here's an image of the final design:
 
 ### Metacarpal, Phalanx, and Claw
 
-&emsp;These parts were designed together, and honestly, I think I did a decent job recreating the feel of IC-0n's hands. These were held together with 3D printed pins and pressure-fit nuts. This actually worked pretty well, and when held in position by the actuator rods, they looked *really* cool.
+&emsp;These parts were designed together, and honestly, I think I did a decent job at making them feel intimidating. These were held together with 3D printed pins and pressure-fit nuts. This actually worked pretty well, and when held in position by the actuator rods, they looked *really* cool. There was an early version that used a giant block as a hand and the fingers were just single printed parts, but assembly would have been hard and the whole design didn't look very good anyways. 
 
 ![](image8.PNG)
 
@@ -96,12 +74,12 @@ Here's an image of the final design:
 ## Takeaways
 
 1. Document everything while building, and keep a journal of ideas. This would have made it a lot easier to write this post, and it's an essential skill for actual engineering. I seem to enjoy recording and documenting in a markdown format like this website, so maybe that's how I should do it in the future.
-2. PETG is super flexible and not great for many engineering purposes. The arms sagged more than I'd expected.
+2. Plastic is flexible! Who'da thunk it. The lever forces on the arm made it sag more than I'd hoped.
 3. 3D printing is NOT the hammer for every nail. Building this from foam and/or aluminum extrusion would have been much lighter and more rigid. However, 3D printing **is** much easier, and amazing for prototyping.
 4. Actuation is hard. It's probably easier to put small motors wherever you need something to move and just run electrical lines.
 5. Think through the practical forces. How is something going to *feel*, how is it going to work, and assume that plastic parts aren't that strong.
 6. Leave more time than you expect to need. I started this project 6 months early, which gave me plenty of time to think it all through and fix issues before the final day.
 7. Test everything ALL THE TIME.
 8. Bring spares. No plan survives contact with the enemy, but planning helps you be prepared for *when* things go wrong.
-9. Rule of Cool trumps all in fiction, but reality has a low-tolerance policy when it comes to BS physics. 
+9. Rule of Cool works in fiction, but reality has a low-tolerance policy when it comes to bad physics. 
 10. Have realistic and stretch goals. From the very beginning, actuated hands were a stretch goal. When that didn't work out, I was able to revert to a "dumb" system that still looked cool.

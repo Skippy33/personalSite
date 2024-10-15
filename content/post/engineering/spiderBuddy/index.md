@@ -5,11 +5,9 @@ draft = false
 categories = [
     "engineering",
     "3D printing",
-    "projects",
-    "WIP"
+    "projects"
 ]
 tags = [
-    "nerd shit",
     "science fiction",
     "wearable"
 ]
@@ -27,11 +25,11 @@ tags = [
 
 &emsp;I haven't made a post on it, but I have previously made a similar (though smaller) project. I made it right before school ended, and it was meant as a super simple weekend project. It was relatively simple, though I learned a lot of lessons from it.
 
-1. Don't use levers. Just connect the legs directly to the servos.
+1. Don't use levers or other complicated linkages. Just connect the legs directly to the servos.
 2. Keep things mechanically simple when things are so small.
 3. Just because your CAD program can make things really small doesn't mean your printer can. Avoid sub-2mm details.
 4. Battery placement/wiring is deceptively difficult. PLAN AHEAD FOR IT.
-5. Use Dupont connectors. Soldering everything, while effective and strong, is a pain and hard to reconfigure.
+5. Use Dupont connectors and breadboards. Soldering everything, while effective and strong, is a pain and hard to reconfigure.
 6. Leave plenty of space for wiring. Wires can take up way more space than you expect and get snagged on things. Don't fall for it.
 
 ### Requirements
