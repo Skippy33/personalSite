@@ -7,8 +7,8 @@ categories = [
     "3D printing",
 ]
 tags = [
-    "upgrades",
-    "nerd shit",
+    "printer upgrades",
+    "old project",
 ]
 +++
 
