@@ -1,7 +1,7 @@
 +++
 title = 'Rotary Delta Project'
 date = 2024-10-15T11:30:37-07:00
-draft = False
+draft = false
 categories = [
     "engineering",
     "3D printing",
