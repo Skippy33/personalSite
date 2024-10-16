@@ -69,8 +69,8 @@ tags = [
 
 ### Fusion file of robot
 
-&emsp;available ![here](deltaFusionFile.f3z)
+&emsp;available [here](deltaFusionFile.f3z)
 
 ## STEP file of robot
 
-&emsp;available ![here](deltaSTEPFile.step)
+&emsp;available [here](deltaSTEPFile.step)
