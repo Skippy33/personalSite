@@ -8,7 +8,8 @@ categories = [
     "WIP"
 ]
 tags = [
-    "upgrades"
+    "upgrades",
+    "electronics"
 ]
 +++
 
