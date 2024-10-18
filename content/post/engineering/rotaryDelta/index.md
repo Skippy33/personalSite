@@ -65,12 +65,12 @@ tags = [
 
 ### Youtube video of robot
 
-&emsp;available [here](https://youtu.be/jdE0xy-rr-U)
+&emsp;[click here](https://youtu.be/jdE0xy-rr-U)
 
 ### Fusion file of robot
 
-&emsp;available [here](deltaFusionFile.f3z)
+&emsp;[click here](deltaFusionFile.f3z)
 
 ## STEP file of robot
 
-&emsp;available [here](deltaSTEPFile.step)
+&emsp;[click here](deltaSTEPFile.step)
