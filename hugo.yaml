@@ -2,7 +2,7 @@ baseurl: https://Skippy.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Skippy's Symposium
+title: Sebastien's Symposium
 copyright: Sebastien Boehme
 
 # Theme i18n support
@@ -22,7 +22,7 @@ module:
 languages:
     en:
         languageName: English
-        title: Skippy's Symposium
+        title: Sebastien's Symposium
         weight: 1
         params:
             description: A place to put cool stuff I've done
@@ -208,6 +208,7 @@ menu:
           url: https://discord.com/users/522562800900505610/
           params:
               icon: brand-discord
+
 
 
 related:
