@@ -1,5 +1,5 @@
 +++
-title = 'Kiln Project'
+title = 'Kiln Projects'
 date = 2025-01-05
 draft = false
 categories = [
