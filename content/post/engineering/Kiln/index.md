@@ -1,6 +1,6 @@
 +++
 title = 'Kiln Project'
-date = 2025-1-5T1:30:37-07:00
+date = 2025-01-05T1:30:37-07:00
 draft = true
 categories = [
     "engineering",
