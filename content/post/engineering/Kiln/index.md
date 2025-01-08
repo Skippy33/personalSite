@@ -40,6 +40,7 @@ So I came up with a micro-kiln. It's made out of seven bricks, furnace cement, a
 &emsp; The electronics box is actually dead-simple. The "brain" is an RX-C100 PID industrial temperature controller. It's dead-simple and dead-stupid, exactly what I need. It's wired into a basic K-type thermocouple and a solid-state relay, which is what actually shunts wall power to the coils. I drew the entire wiring diagram in a notebook, printed a basic electronics box, and wired it all together with the thickest cable I could find. Most if it was made with parts from old projects, so this was actually the cheapest part of the project. It looks a *little bit* like a bomb, but it should get the job done. I'll need to plug it into a power stick or GFI and be *very* careful never to mess with it while plugged in. 
 
 ![Messy kiln box](kilnBox.jpg)
+![Messy kiln box](kilnBox2.jpg)
 
 ### The Construction 
 
