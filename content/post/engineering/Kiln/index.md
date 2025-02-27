@@ -47,10 +47,37 @@ tags = [
 ![Messy kiln box](kilnBox.jpg)
 ![Messy kiln box](kilnBox2.jpg)
 
-### The Construction 
+### V1 (1/15/2025)
 
-&emsp;The kiln block was put together with furnace cement, and the bricks that needed to be cut were cut on a masonry saw. That was pretty easy - basically adult lego. 
+&emsp;The kiln block was put together with home depot furnace cement, and the bricks that needed to be cut were cut on a masonry saw. 
+That was pretty easy - basically adult lego. 
 
-&emsp;The electronics box was put together in an afternoon. All the parts I had on hand, and I simply followed my diagram. It was my first time using a wire crimper, and now I'll have to use them everywhere because it makes everything so much easier. Whood'a thought using the right tool for the job would make things easier?
+&emsp;The electronics box was put together in an afternoon. All the parts I had on hand, and I simply followed my diagram. 
+It was my first time using a wire crimper, and now I'll have to use them everywhere because it makes everything so much easier. 
+Whood'a thought using the right tool for the job would make things easier?
 
-&emsp;The wire was twisted over a 3D-printed jig (read - cylinder with a hole to hold the wire) of the right diameter. I could have used a dowel, but I'd have needed to go out and buy one, and I had a 3D printer on hand. The wire was more resistant to twisting than I thought it'd be, and it was kind of a pain to mount in the block. I mounted the wires to the block with small tacks of mortar.
+&emsp;The wire was twisted over a 3D-printed jig (read - cylinder with a hole to hold the wire) of the right diameter. 
+I could have used a dowel, but I'd have needed to go out and buy one, and I had a 3D printer on hand. The wire was more 
+resistant to twisting than I thought it'd be, and it was kind of a pain to mount in the block. I mounted the wires to the 
+block with small tacks of mortar.
+
+&emsp;This arrangement was... unsatisfactory. I bought "firebrick," which is apparently not the same thing as "insulating firebrick,"
+often just referred to as "firebrick." Turns out firebrick is made of a special type of clay while insulating firebrick is made of 
+ceramics blown to be porous, kinda like pumice. Makes me think about how useful pumice-filled concrete could be...
+
+&emsp;Anyways, the regular firebrick simply wasn't a strong enough insulator. The outside of the block wasn't much cooler than the 
+inside, and 1800 watts definitely wasn't enough to counteract the heat losses. I was just *barely* able to hit 500C, but that's not enough.
+The first version was also shamefully crude, with the heating wires kinda just hanging around. This was a bad idea and very quickly fell apart.
+
+### V2 (2/26/2025)
+
+&emsp;For the second version, I bought some insulating firebrick. This stuff is super expensive and fragile, so I have to be careful. I'd 
+originally considered Kaowool, but bricks were simply easier to deal with and I know more about their properties. To deal with the fragility 
+of the bricks, I assembled the kiln and covered it in home depot fire cement. This was, in hindsight, probably not the best idea - a proper 
+refractory cement would have likely been the proper material. The furnace cement *works*, but it's been somewhat fragile and seems to have converted 
+to a sort of glassy material on any hot surfaces. It also smells awful during first burn-in as all the residual water evaporates.
+
+&emsp;The electronics are the same, but the heater wire changed to be less janky. I carved small indentations in the bricks to fit the coil 
+around the equator of the hot chamber. This change in the length of the coil necessitated a change in the coil itself - I chose 20AWG Kanthal-A1 
+wound in a ~1/4th in coil around a screw. The screw was useful, as it helped me ensure that the coil spacing was consistent during initial winding. 
+Afterward, I stretched the coil to fit the channels I'd carved. 
