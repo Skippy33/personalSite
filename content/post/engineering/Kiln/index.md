@@ -80,4 +80,46 @@ to a sort of glassy material on any hot surfaces. It also smells awful during fi
 &emsp;The electronics are the same, but the heater wire changed to be less janky. I carved small indentations in the bricks to fit the coil 
 around the equator of the hot chamber. This change in the length of the coil necessitated a change in the coil itself - I chose 20AWG Kanthal-A1 
 wound in a ~1/4th in coil around a screw. The screw was useful, as it helped me ensure that the coil spacing was consistent during initial winding. 
-Afterward, I stretched the coil to fit the channels I'd carved. 
+Afterward, I stretched the coil to fit the channels I'd carved.
+
+### V2 Updates (3/13/2025)
+
+&emsp;Well, it's not perfect. In particular, I think I bought the wrong kind of mortar compound. It's cracking all over, and isn't very stable. Proper 
+refractory compound would have been better, but I can't really fix it now. Best to remember it for the next version. 
+
+&emsp;The wires have also proven difficult. They contract when cooling, which has led to some of them falling off their perch. I also don't dare to 
+try to fix them, as they become very brittle with heating/cooling cycles. If I make a future version, I'll have to embed a perch into the walls such 
+that the coils can't escape, or I'll have to find a way to pin them. 
+
+&emsp;The size limitation of the kiln has also been something of a problem. I didn't really think about it too much when I first made it, but the kiln 
+really limits my ability to make molds. While sure, I can melt down a half-kilo of metal at a time, I can't really fire molds big enough to accept that 
+much metal. The molds also have to be fired for a long while, so I don't really want to fire them with a fuel-based forge if I can. While I do eventually 
+want to make something ran on fuel, that can become expensive and somewhat hazardous if ran for too long. However, the forge I'm planning on making 
+should run on waste oil, which is basically free... Options, options. 
+
+
+## Investment Casting
+
+&emsp;Investment casting is a relatively simple casting process in principle, but unfortunately gets rather hard to do as an amateur. For one, there aren't too many resources on workflows, especially if you don't have the money for a ton of equipment. I've been coagulating all the methods I've seen on the internet and trying to develop a decent workflow for lost-PLA investment casting.
+
+### Casting Procedure (4/19/24)
+Im still working on a procedure for lost PLA investment casting, but here's what Ive got so far:
+
+1. Make your positive print. Can be almost anything, but you have to consider venting and tricky geometry. I use the cheapest PLA I can - additives can introduce ash in the burn-out process. You want to use the thinnest walls you can and practically no infill - I use like 15% lightning infill and 1 wall. 
+
+2. I make a filling compound of 2 parts sieved sand, 1 part plaster of paris, ~1/2 part water. This I use to fill in geometry that won't get filled in by the plaster investment. Ideally, this wouldn't be needed, but when you need to consider both printability and casting, Ive found it's needed, especially for smaller details. This is the part I need to improve on the most, I think. 
+
+3. I make a small box out of something disposable, usually cardboard. This is what the investment (casting compound for the negative) will be poured it. After the filling compound has cured, I glue the model to the bottom of the box.
+
+4. I make the investment compound (2 parts sieved sand, 1 part plaster of paris, 1 part water) and pour it into the box. Shake it a bit to make sure the bubbles come out. It'll set in 30 mins, I let it cure and dry for a day afterwards.
+
+5. After drying, burn it out in the furnace. I usually burn it for like 30 mins at 500-600C. This will burn out the PLA, leaving space for the metal. 
+
+6. Remove mold from furnace, put in metal. So far, all I've used is homemade Zamak-12, a zinc-based casting alloy. it'll melt at 550C and can be poured into the mold pretty easily.
+
+7. Wait for the metal to freeze, then quench it. The investment should be somewhat water-soluble, and it tends to pop off as water seeps in and evaporates.
+
+8. Post processing. Depends on the quality of the model, but you usually need to at least remove the sprue.
+
+&emsp;Now, there are a few methods I can see for obvious improvement. For one, increased sprue pressure would certainly be helpful for capturing details in models and making sure the metal can get everywhere in a mold. I've had some decent casts with this method, but a decent number of failures as well. In particular, the investment seems to crack and fray, small chunks coming out and falling into the places where metal should go. This leaves voids of investment in the final part, which is undesirable.
+&emsp;[Industrially](https://www.investmentcasting.org/uploads/8/1/9/8/81988734/atlas_of_shell_defects.pdf), this is solved with a ceramic slurry coating, but I don't have that sort of money. One option for low-temp casting might be talc powder based slurry, but that's iffy and will need experimentation. I could also try heating the mold slower to avoid temperature differences between different sections. It might also just be worthwhile getting better with casting. My mold orientation so far has been suboptimal, and I'm sure I could do better with some practice and thought.
